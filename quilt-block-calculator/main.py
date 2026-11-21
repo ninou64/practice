@@ -1,6 +1,6 @@
-width = int(input("Quilt width: "))
-height = int(input("Quilt height: "))
-block_size = int(input("Block size: "))
+width = int(input("Enter the quilt width: "))
+height = int(input("Enter the quilt height: "))
+block_size = int(input("Enter the block size: "))
 
 blocks = (width // block_size) * (height // block_size)
 
